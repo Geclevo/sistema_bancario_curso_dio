@@ -7,7 +7,7 @@ menu = """
 
 => """
 
-saldo = 1000
+saldo = 0
 limite = 500
 extrato = []
 numero_saques = 0
@@ -62,7 +62,7 @@ while True:
             for item in range(len(coluna_deb_cred)):
                 print(f"{coluna_deb_cred[item]}{coluna_extrato[item]:.2f}")
             print(f"\nSaldo Total: R$ {saldo:.2f}")
-        print("\n=================================")       
+        print("=================================")       
     elif opcao == "q":
         print("Saindo")
         break
